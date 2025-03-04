@@ -3,8 +3,8 @@
 # @Contact: liekkaskono@163.com
 from pathlib import Path
 
-from lineless_table_rec import LinelessTableRecognition
-from lineless_table_rec.utils_table_recover import (
+from lineless_table import LinelessTableRecognition
+from lineless_table.utils_table_recover import (
     format_html,
     plot_rec_box,
     plot_rec_box_with_logic_info,
